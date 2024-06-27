@@ -1,0 +1,32 @@
+/* Custom styles for form elements */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-inline .form-control {
+  width: auto;
+  vertical-align: middle;
+}
+
+.form-inline .btn {
+  vertical-align: middle;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  background: url("clock.jpg") no-repeat center center;
+  background-size: cover;
+  color: rgb(212, 27, 113);
+}

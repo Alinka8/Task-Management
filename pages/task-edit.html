@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management - Edit Task</title>
+        <!-- Bootstrap CSS -->
+        <script src="js/bootstrap.js"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Task Management</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Edit Task Form -->
+    <div class="container mt-5">
+      <h2>Edit Task</h2>
+      <form>
+        <div class="form-group">
+          <label for="taskTitle">Task Title</label>
+          <input
+            type="text"
+            class="form-control"
+            id="taskTitle"
+            value="Current Task Title"
+          />
+        </div>
+        <div class="form-group">
+          <label for="taskDescription">Task Description</label>
+          <textarea class="form-control" id="taskDescription" rows="4">
+Current Task Description</textarea
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+      </form>
+      <a href="dashboard.html" class="btn btn-secondary mt-3"
+        >Back to Dashboard</a
+      >
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p>&copy; 2024 Task Management. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
